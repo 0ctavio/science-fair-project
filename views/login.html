@@ -22,12 +22,15 @@
 					</div>
 
 				</form>
-				{{message}}
 
+				<div class="alert alert-danger fade in" ng-show="error">
+					<strong>{{message}}</strong>
+				</div>
+			
 
-			<button type="button" class="btn btn-success text-center login-button" id="submitUser" ng-click="check()">Iniciar sesión</button>
+				<button type="button" class="btn btn-success text-center login-button" id="submitUser" ng-click="check()">Iniciar sesión</button>
 
-			<button type="button" go-click="/register" class="btn btn-primary login-button">Register Stand</button>
+				<button type="button" go-click="/register" class="btn btn-primary login-button">Register Stand</button>
 		</div>
 	</div>
 </div>

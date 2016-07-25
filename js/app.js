@@ -40,6 +40,7 @@ app.config(['$routeProvider',function($routeProvider) {
 }]);
 
 app.controller('HomeViewController', ['$scope', function ($scope) {
+
 	$scope.appTitle = 'Science Fair';
 }]);
 
@@ -68,7 +69,40 @@ app.controller('StandViewController', ['$scope','$http','$routeParams', function
 // 	}
 // }]);
 
-app.controller('RegisterViewController', ["$scope", "$localStorage", function ($scope, $localStorage) {
+app.controller('LoginViewController', ["$scope", "$localStorage","$sessionStorage", "$location", function ($scope, $localStorage,$sessionStorage, $location) {
+	if ($sessionStorage.currentUser) {
+			$location.path("/map");
+		}
+
+	$scope.error =  false;
+	$scope.check = function () {
+
+		$scope.stand = $localStorage.stand;
+		if($scope.stand){
+			if($scope.stand[$scope.standName]){
+				if ($scope.stand[$scope.standName].username == $scope.username 
+					&& $scope.stand[$scope.standName].password==$scope.password) {
+
+					$sessionStorage.currentUser = $scope.stand[$scope.standName].username;
+					$location.path("/map");
+			}else{
+				$scope.message = "Error. Usuario o password erroneo.";
+				$scope.error = true;
+			}
+		}
+		else {
+			$scope.message = "Stand no existe.";
+			$scope.error = true;
+		}
+	}
+}
+}]);
+
+app.controller('RegisterViewController', ["$scope", "$localStorage", "$location", "$sessionStorage", function ($scope, $localStorage, $location, $sessionStorage) {
+	if ($sessionStorage.currentUser) {
+		$location.path("/map");
+	}
+
 	$scope.save = function() {
 
 		var stands = $localStorage.stand || {};
@@ -87,6 +121,7 @@ app.controller('RegisterViewController', ["$scope", "$localStorage", function ($
 		if (!stands [obj.standName]) {
 			stands[obj.standName] = obj;
 			$localStorage.stand = stands;
+			$location.path("/login");
 		}
 	}
 
@@ -123,31 +158,6 @@ app.directive('backImg', function(){
 	};
 });
 
-
-
-app.controller('LoginViewController', ["$scope", "$localStorage","$sessionStorage", "$location", function ($scope, $localStorage,$sessionStorage, $location) {
-	$scope.check = function () {
-
-		$scope.stand = $localStorage.stand;
-		if($scope.stand){
-			if($scope.stand[$scope.standName]){
-				if ($scope.stand[$scope.standName].username == $scope.username 
-					&& $scope.stand[$scope.standName].password==$scope.password) {
-
-					$sessionStorage.currentUser = $scope.stand[$scope.standName].username;
-					$location.path("/map");
-			}else{
-				$scope.message = "Error. Usuario o password erroneo.";
-			}
-		}
-		else {
-			$scope.message = "Stand no existe.";
-		}
-	}
-}
-
-
-}]);
 
 
 //app.controller('LoginViewController', [function ($location, AuthenticationService, FlashService) {
