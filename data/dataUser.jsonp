@@ -1,0 +1,14 @@
+login ( {
+    "users":
+     [
+            {
+                "name": "octavio",
+                "password": "12345"
+            },
+
+             {
+                "name": "alejandro",
+                "password": "1234"
+            }
+     ]
+});

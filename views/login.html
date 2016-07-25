@@ -1,0 +1,33 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4" style="text-align:center">
+			
+			<img class="img-logo" src="img/fair_logo.png" alt="science-fair-logo"/>
+	
+
+				<form role="form">
+					<div class="form-group">
+						<label for="standName">Nombre del stand</label>
+						<input type="text" class="form-control" id="standName" ng-model="standName">
+					</div>
+
+					<div class="form-group">
+						<label for="userName">Nombre de Usuario</label>
+						<input type="text" class="form-control" id="userName" ng-model="username">
+					</div>
+
+					<div class="form-group">
+						<label for="pwd">Contraseña</label>
+						<input type="password" class="form-control" id="pwd" ng-model="password">
+					</div>
+
+				</form>
+				{{message}}
+
+
+			<button type="button" class="btn btn-success text-center login-button" id="submitUser" ng-click="check()">Iniciar sesión</button>
+
+			<button type="button" go-click="/register" class="btn btn-primary login-button">Register Stand</button>
+		</div>
+	</div>
+</div>

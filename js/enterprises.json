@@ -1,0 +1,512 @@
+[
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "1",
+    "name": "Aglaris Cell",
+    "image": "img/logos/aglariscell.png",
+    "who": "Aglaris Cell surge de la colaboración entre investigadores del grupo de biomateriales del IQS de Barcelona y el grupo de regulación de la Expresión y Estabilidad Genética en Células Madre de una institución de primer nivel.",
+    "what": "El biorreactor Aglaris Facer 1.0 es nuestro primer producto. Este equipo es capaz de cultivar células de forma automática sin el uso de tripsina.",
+    "contact": {
+      "web": "www.aglariscell.es",
+      "email": "info@aglariscell.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "2",
+    "name": "Álamo Consulting",
+    "image": "img/logos/alamoconsulting.png",
+    "who": "ÁlamoConsulting es una compañía de consultoría especializada en Tecnologías de la Información.",
+    "what": "Proyectos de consultoría: planes estratégicos y tecnológicos, planes de convergencia derivados de una fusión-reestructruación, rediseño de modelos de negocio, cuadros de mando, PMO, etc.",
+    "contact": {
+      "web": "www.alamoconsulting.com",
+      "email": "contacto@alamoconsulting.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "3",
+    "name": "Albufera Energy Storage",
+    "image": "img/logos/albufera-energy-storage.png",
+    "who": "La empresa lidera la Universidad de la Batería, una iniciativa para formar una red europea de profesionales involucrados en el campo del almacenamiento de electricidad e interesados en desarrollar proyectos de demostración de acuerdo a las directrices de la Comisión Europea para el programa H2020.",
+    "what": "Albufera Energy Storage se encuentra inmersa en el desarrollo de una batería recargable de Aluminio-aire susceptible de ser utilizada en el mundo de la energía inteligente.",
+    "contact": {
+      "web": "www.albufera-energystorage.com",
+      "email": "info@albufera-energystorage.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "4",
+    "name": "Allinky Biopharma",
+    "image": "img/logos/Allinky-biopharma.png",
+    "who": "Allinky Biopharma es una spin off académica dedicada al descubrimiento y desarrollo de fármacos para el tratamiento de patologías relacionadas con la inflamación crónica, el envejecimiento celular y el cáncer.",
+    "what": "Allinky desarrolla nuevos fármacos capaces de modular las señales moleculares anormales responsables de estas enfermedades y, por lo tanto, contribuir a restaurar la expresión genética normal de la célula.",
+    "contact": {
+      "web": "www.allinky.com",
+      "email": "lab@allinky.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "5",
+    "name": "Aptus Biotech",
+    "image": "img/logos/aptus-biotech.png",
+    "who": "Compañía biotecnológica especializada en la selección y la identificación de aptámeros y en el desarrollo de nuevas terapias y aplicaciones diagnósticas basadas en esta tecnología.",
+    "what": "Aptus Biotech ofrece un catálogo de aptámeros desarrollados por la propia compañía y en colaboraciones con otras empresas y centros de investigación.",
+    "contact": {
+      "web": "www.aptusbiotech.com",
+      "email": "aptusbiotech@aptusbiotech.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "6",
+    "name": "Aratech",
+    "image": "img/logos/aratech.png",
+    "who": "Aratech es una startup  dedicada al desarrollo de aplicaciones en la nube y aplicaciones móviles basadas en software SaaS en cloud.",
+    "what": "Diseñamos e implementamos herramientas tecnológicas personalizadas y adaptadas a diferentes entornos y necesidades tan variadas como sistemas de pago, gamificación, redes sociales, divulgación científica o procesado de imágenes y datos para análisis clínico.",
+    "contact": {
+      "web": "www.ara-tech.es",
+      "email": "contacto@ara-tech.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "7",
+    "name": "Aselcis Consulting",
+    "image": "img/logos/aselcis-consulting.png",
+    "who": "ASELCIS Consulting es una empresa con una amplia experiencia en la implantación de sistemas de gestión empresarial en los ámbitos de ERP, CRM, Gestión Documental y Business Intelligence.",
+    "what": "Aselcis ofrece soluciones de Business Intelligence y de Gestión Documental donde la accesibilidad, la escalabilidad, la personalización o la seguridad de los datos, son una garantía.",
+    "contact": {
+      "web": "www.aselcis.com",
+      "email": "info@aselcis.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "8",
+    "name": "Atelgraphics",
+    "image": "img/logos/atelgraphics.png",
+    "who": "Allgraphics es una empresa que se centra en el desarrollo de software científico.",
+    "what": "AtelGraphics realiza y visualiza simulaciones atomísticas cuánticas.",
+    "contact": {
+      "web": "www.atelgraphics.com",
+      "email": "info@atelgraphics.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "9",
+    "name": "Aunergy",
+    "image": "img/logos/aunergy.png",
+    "who": "Aunergy is specialised in operational and advanced control software for solar thermoelectric power plants.",
+    "what": "The aim of the solutions offered by Aunergy is to increase efficiency and safety in thermo-solar plants thanks to integrated simulation, control and operational systems.",
+    "contact": {
+      "web": "www.aunergy.com",
+      "email": "info@aunergy.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "10",
+    "name": "BioAssays",
+    "image": "img/logos/bioassays.png",
+    "who": "Bioassays is a basic and advanced research platform specialised in the field of biochemistry and the interactions of proteins, as well as cell and molecular biology.",
+    "what": "BioAssays offers its proven ability to successfully identify and discover in vitro, and to functionally validate in vivo.",
+    "contact": {
+      "web": "www.bioassays.es",
+      "email": "info.bioassays@gmail.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "11",
+    "name": "Bioecm",
+    "image": "img/logos/bioecm.png",
+    "who": "BIOECM specialises in the safety of electronic documents.",
+    "what": "Issuing and managing documents, long-term filing of documents and certified digitisation.",
+    "contact": {
+      "web": "www.bioecm.com",
+      "email": "administracion@bioecm.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "12",
+    "name": "Biomedica Molecular Medicine",
+    "image": "img/logos/biomedica.png",
+    "who": "Biomedica Molecular Medicine develops molecular tools designed to help doctors make clinical decisions.",
+    "what": "The company also provides access to latest generation equipment in order to work in all areas of molecular biology: NGS, genomics, microRNAs, proteomics and metabolomics. ",
+    "contact": {
+      "web": "www.biomedicamm.com",
+      "email": "info@biomedicamm.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "13",
+    "name": "Biomol Informatics",
+    "image": "img/logos/biomol-genoma4u.png",
+    "who": "Biomol-Informatics´ scientists are experts in the use of QM/MM (molecular dynamics and quantum mechanics/molecular mechanics). ",
+    "what": "Biomol-Informatics is specialised in studying and rationally designing pharmaceuticals for ATPases and GTPases through computational simulations.",
+    "contact": {
+      "web": "www.biomol-informatics.com",
+      "email": "bioinfo@biomol-informatics.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "14",
+    "name": "Ciberned",
+    "image": "img/logos/ciberned.png",
+    "who": "Ciberned is composed of over 50 research groups, led by one main researcher. More than 500 scientists from universities, hospitals and the CSIC are part of Ciberned.",
+    "what": "CIBERNED (Centre for Network Biomedical Research on Neurodegenerative Diseases) is a public consortium which aims to promote and collaborate with scientific research and the problems related to neurodegenerative diseases.",
+    "contact": {
+      "web": "www.ciberned.es",
+      "email": "gerencia@ciberned.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "15",
+    "name": "Civagen",
+    "image": "img/logos/civagen.png",
+    "who": "CIVAGEN BIOMEDICAL is a biomedical company.",
+    "what": "CIVAGEN BIOMEDICAL which specialises in cutting-edge technology and Digital Image smart systems for early detection pathology diagnosis.",
+    "contact": {
+      "web": "www.civagen.com",
+      "email": "info@civagen.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "16",
+    "name": "Dart",
+    "image": "img/logos/dart.png",
+    "who": "Dart (Design, Research & Technology) investiga en nuevos productos y aplicaciones de big data.",
+    "what": "Nos centramos en escalabilidad en el procesamiento de información y servicios en la nube.",
+    "contact": {
+      "web": "www.dart.technology",
+      "email": "info@dart.technology"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "17",
+    "name": "Diomune",
+    "image": "img/logos/diomune.png",
+    "who": "Diomune´s technological innovation is based on the discovery of a family of immunomodulatory compounds which have an effect on receptors linked to innate immunity.",
+    "what": "Diomune is specialised in research and development of new immunological treatments which can be applied to human and animal health for infectious, inflammatory and autoimmune diseases.",
+    "contact": {
+      "web": "www.diomune.com",
+      "email": "info@diomune.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "18",
+    "name": "Dynamimed",
+    "image": "img/logos/dynamimed.png",
+    "who": "Laboratory animal diagnosis and biological samples",
+    "what": "DYNAMIMED specialises in health diagnosis and animal monitoring in biological material intended for biomedical research.",
+    "contact": {
+      "web": "www.dynamimed.com",
+      "email": "laboratorio@dynamimed.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "19",
+    "name": "EPMTIC",
+    "image": "img/logos/epmtic.png",
+    "who": "EPMTIC (Efficient Project Management of Information and Communications Technology). Its personalised infrastructure and project engineering solutions go from designing,",
+    "what": "specialises in providing services and developing solutions related to information and communications technology.",
+    "contact": {
+      "web": "www.epmtic.es",
+      "email": "info@emptic.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "20",
+    "name": "Exaccta",
+    "image": "img/logos/exaccta.png",
+    "who": "Exaccta is the first worldwide app which automatically extracts all the data needed to manage accounting in real time simply by taking a picture of all invoices and tickets, ",
+    "what": "Exaccta allow the user to manage his accounting and tax payments if he is a professional (Exaccta TAX), monitor a budget if he is part of a family (Exaccta HOME) or generate a report on monthly expenses if he is an employee (Exaccta XPENS).",
+    "contact": {
+      "web": "www.exaccta.com",
+      "email": "comunicacion@exaccta.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "21",
+    "name": "Geniality",
+    "image": "img/logos/geniality.png",
+    "who": "GENIALITY is a biotechnological company devoted to applying diagnosis techniques to the field of reproductive genetics.",
+    "what": "GENIALITY is specialised in Preimplantation Genetic Diagnosis (PGD). ",
+    "contact": {
+      "web": "www.geniality.es",
+      "email": "info@geniality.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "22",
+    "name": "Gnanomat",
+    "image": "img/logos/gnanomat.png",
+    "who": "Gnanomat es una empresa que emplea una tecnología propia mediante la cual es posible obtener materiales dopados con nanopartículas metálicas en un proceso escalable industrialmente, ",
+    "what": "Gnanomat ha desarrollado una novedosa tecnología para la producción de grafeno y de nanomateriales derivados mediante un procedimiento más versátil y económico a las actuales propuestas del mercado.",
+    "contact": {
+      "web": "www.gnanomat.com",
+      "email": "info@gnanomat.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "23",
+    "name": "H2O Mobile",
+    "image": "img/logos/h2omobile.png",
+    "who": "H2o Mobile is an independent telecommunications operator aimed at residential customers and companies.",
+    "what": "The main goal of this business project is to guarantee and make it easier for everybody to have access to new technologies and to establish a national operator.",
+    "contact": {
+      "web": "www.yuuju.es",
+      "email": "info@yuuju.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "24",
+    "name": "Halotech DNA",
+    "image": "img/logos/halotech-dna.png",
+    "who": "HALOTECH has several products on the market which analyse human (Halosperm) and animal (Halomax) DNA fragmentation.",
+    "what": "HALOTECH develops, produces and commercialises products related to SCD technology (Sperm Chromatin Dispersion test)",
+    "contact": {
+      "web": "www.halotechdna.com",
+      "email": "info@halotech.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "25",
+    "name": "IARLabs",
+    "image": "img/logos/iarlabs.png",
+    "who": "IAR Labs is a company in the technological sector specialised in smartphone and tablet Augmented Reality apps.",
+    "what": "These are dynamic presentations based on pictures taken by a camera with extra graphic elements. The understanding of recipients not accustomed to interpreting dimensions and shapes on a flat surface is improved.",
+    "contact": {
+      "web": "www.iarlabs.com",
+      "email": "tgarcia@iarlabs.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "26",
+    "name": "Ibercat",
+    "image": "img/logos/ibercat.png",
+    "who": "IBERCAT offers comprehensive and personalised catalytic solutions. ",
+    "what": "The company specialises in fuel cell components, hydrogen production, biofuels and products derived from biomass.",
+    "contact": {
+      "web": "www.ibercatsl.com",
+      "email": "info@ibercatsl.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "27",
+    "name": "Ica2",
+    "image": "img/logos/ica2.png",
+    "who": "CA2 – Innovación y Tecnología is a company focused on the development and application of technological and methodological solutions.",
+    "what": "CA2 implant models of knowledge and R+D management and organisational intelligence models in institutions.",
+    "contact": {
+      "web": "www.ica2.com",
+      "email": "info@ica2.com"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "28",
+    "name": "Innocv",
+    "image": "img/logos/innocv.png",
+    "who": "INNOCV Solutions specialises in developing .NET and Java applications in the fields of logistical management, retail and industrial production.",
+    "what": "INNOCV identify, evaluate and implement technological logistical solutions which enable the company to increase workers´ productivity, ",
+    "contact": {
+      "web": "www.innocv.com",
+      "email": "info@innocv.com"
+    },
+    "notes": []
+  },
+  
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "29",
+    "name": "ITS-security",
+    "image": "img/logos/its.jpg",
+    "who": "ITS Security is an engineering and counselling IT company specialised in cybersecurity and intelligence for industrial monitoring systems.",
+    "what": "It offers the chance to become aware of possible vulnerabilities and security breaches,",
+    "contact": {
+      "web": "www.its-security.es",
+      "email": "its@its-security.es"
+    },
+    "notes": []
+  },
+  
+  {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
+    "id": "30",
+    "name": "Mygen",
+    "image": "img/logos/mygen.png",
+    "who": "MyGEN Laboratorio is a private company working mainly in the fields of Human Health and Applied Microbiology.",
+    "what": "Its main activity focuses on developing and commercialising technologies that can make genetic and microbiological analysis which are very accurate and problem-solving with a minimum response time.",
+    "contact": {
+      "web": "www.mygen.es",
+      "email": "info@mygen.es"
+    },
+    "notes": []
+  }
+]
