@@ -17,18 +17,18 @@
 	</div>
 </div> -->
 
-<div class="container bodys">
-	<div class="text-center">
-	<!-- Trigger the modal with a button -->
-	<img class="img-responsive" src="img/fairmap.png" alt="science-fair-map" usemap="#Map" />
-	<map name="Map" id="Map">
-	<div ng-repeat = "stand in stands">
-	    <area go-click="/stand/{{stand.name}}" alt="{{stand.name}}" title="{{stand.name}}" shape="poly" coords={{stand.coords}} />
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-12 text-center map-center">
+			<!-- Trigger the modal with a button -->
+			<img class="img-responsive map-center" src="img/fairmap.png" alt="science-fair-map" usemap="#Map" />
+			<map name="Map" id="Map">
+				<div ng-repeat = "stand in stands">
+					<area go-click="/stand/{{stand.name}}" alt="{{stand.name}}" title="{{stand.name}}" shape="poly" coords={{stand.coords}} />
+				</div>
+			</map>
+		</div>
+
 	</div>
-	</map>
-	</div>
-
-
-
-
 </div>

@@ -1,20 +1,62 @@
-<div class="container">
-	<div class="row bodys">
+<!-- <div class="card" ng-repeat="stand in stands | filter : {name:name}:true">
+  
+  <div class="card-block">
+      <h4 class="card-title">{{stand.name}}</h4>
+  </div>
+  <img class="card-img-top" src="{{stand.image}}" alt="Card image cap">
+<div class="card-block">
+    <p class="card-text">{{stand.what}}</p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div> -->
+
+<div class="container card-image">
+	<div class="row">
 		<div ng-controller="StandViewController">
 			<div class="standCard" ng-repeat="stand in stands | filter : {name:name}:true">
-				<span><h3 class="standName">{{stand.name}}</h3></span><span>{{stand.id}}</span>
-				<img class="standImage" src="{{stand.image}}">
-				<h4 class="standSubtitle">¿Quienes somos?</h4>
+				<div class="row stand-header">
+					<div class="col-xs-9">
+						<span><h3 class="stand-name">{{stand.name}}</h3></span>
+					</div>
+					<div class="col-xs-3">
+						<span class="stand-number">{{stand.id}}</span>
+					</div>
+				</div>
+				
+				<div class="row">
+					<img class="stand-image-logo" src="{{stand.image}}">
+				</div>
+
+				<div class="row">
+					<div class="col-xs-8">
+						<h4 class="standSubtitle">¿Quienes somos?</h4>	
+					</div>
+					<div class="col-xs-4">
+						<button class="favourite-button" ng-click="addStandToFavourite(stand.name)"><i class="fa fa-star-o fa-2x" aria-hidden="true" ng-class="{favourite: checkFavourite(stand.name)}"></i></button>
+					</div>
+				</div>
+
+				
 				<p class="standText">{{stand.who}}</p>
 				<h4 class="standSubtitle">¿Qué hacemos?</h4>
 				<p class="standText">{{stand.what}}</p>
 				<h4 class="standSubtitle">Contacto</h4>
-				<a  class="standText" href="http://{{stand.contact.web}}">{{stand.contact.web}}</a>
-				<a  class="standText" href="mailto:{{stand.contact.email}}">{{stand.contact.email}}</a>
 
-				<button go-click="/map" class="btn btn-primary pull-right">Volver al mapa</button>
+				<div class="row">
+					<div class="col-xs-12">
+						<a  class="standText" href="http://{{stand.contact.web}}">{{stand.contact.web}}</a>
+					</div>
+					<div class="col-xs-12">
+						<a  class="standText" href="mailto:{{stand.contact.email}}">{{stand.contact.email}}</a>
+					</div>
+				</div>
+				
+				<div class="row">
+					<button go-click="/map" class="btn btn-primary text-center">Volver al mapa</button>
+				</div>
+				
 
-				<button ng-click="addStandToFavourite(stand.name)"><i class="fa fa-star-o fa-2x" aria-hidden="true" ng-class="{favourite: checkFavourite(stand.name)}"></i></button>
+				
 			</div>
 		</div>
 	</div>

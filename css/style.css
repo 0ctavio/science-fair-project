@@ -1,5 +1,21 @@
+.map-center {
+  display: block;
+  margin: 0 auto;
+}
+
 .favourite {
-  color: yellow;
+  color: #ffd800;
+}
+
+.stand-number {
+  font-size: 1.5em;
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.stand-header {
+  margin-top: 4%;
 }
 
 .fixedContainer {
@@ -102,12 +118,29 @@ input.ng-invalid {
     border: rgba(215, 44, 44, 0.6) solid 1px;
 }
 
-.standName {
-    
+.stand-image-logo {
+  border: solid;
+  border-radius: 13px;
+  width: 84%;
+  margin: 0 5%;
+  margin-bottom: 7%;
+  box-shadow: 5px 5px 22px -7px;
 }
 
-.standImage {
+.stand-name {
+  margin-left: 6%;
+  margin-bottom: 7%;
+}
 
+.text-login {
+  background-color: white;
+  box-shadow: 5px 5px 8px -3px;
+  border-radius: 20px;
+}
+
+.text-imput-login {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .standSubtitle {
@@ -115,7 +148,26 @@ input.ng-invalid {
 }
 
 .standText {
+    border: solid;
+    border-radius: 11px;
+    padding: 4%;
+    margin: 3px 6% 7% 0%;
+    background-color: white;
+    box-shadow: 5px 5px 22px -7px;
+}
 
+.favourite-button {
+  background-color: transparent;
+  border: none;
+}
+
+.favourite-button:focus {
+  outline: none !important;
+}
+
+.card-image {
+  max-height: 568px;
+  max-width: 320px;
 }
 
 .img-logo {

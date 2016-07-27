@@ -40,7 +40,6 @@ app.config(['$routeProvider',function($routeProvider) {
 }]);
 
 app.controller('HomeViewController', ['$scope', function ($scope) {
-
 	$scope.appTitle = 'Science Fair';
 }]);
 
