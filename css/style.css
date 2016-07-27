@@ -1,3 +1,7 @@
+.favourite {
+  color: yellow;
+}
+
 .fixedContainer {
     position: fixed;
     width: 745px;

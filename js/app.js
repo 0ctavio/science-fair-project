@@ -52,11 +52,30 @@ app.controller('MapViewController', ['$http', '$scope', function ($http, $scope)
 	});
 }]);
 
-app.controller('StandViewController', ['$scope','$http','$routeParams', function ($scope,$http,$routeParams) {
+app.controller('StandViewController', ['$scope','$http','$routeParams', '$sessionStorage', function ($scope,$http,$routeParams, $sessionStorage) {
 	$scope.name = $routeParams.name;
 	$http.get("js/enterprises.json").success(function(data){
 		$scope.stands = data;
 	})
+
+	$scope.checkFavourite = function (name) {
+		var index = $sessionStorage.favourite.indexOf(name);
+		if (index === -1) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+
+	$scope.addStandToFavourite = function (name) {
+		var index = $sessionStorage.favourite.indexOf(name);
+		if (index === -1) {
+			$sessionStorage.favourite.push(name);
+		}else {
+			$sessionStorage.favourite.splice(index, 1);
+		}
+	}
+
 }]);
 
 // app.controller('LoginViewController', [function ($scope, $localStorage) {
@@ -82,6 +101,8 @@ app.controller('LoginViewController', ["$scope", "$localStorage","$sessionStorag
 			if($scope.stand[$scope.standName]){
 				if ($scope.stand[$scope.standName].username == $scope.username 
 					&& $scope.stand[$scope.standName].password==$scope.password) {
+
+					$sessionStorage.favourite = [];
 
 					$sessionStorage.currentUser = $scope.stand[$scope.standName].username;
 					$location.path("/map");

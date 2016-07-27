@@ -1,5 +1,9 @@
-[
-  {
+[{
+  "AglarisCell": {
+    "organizer": {
+      "username": "",
+      "password": ""
+    },
     "id": "1",
     "name": "Aglaris Cell",
     "image": "img/logos/aglariscell.png",
@@ -9,10 +13,12 @@
       "web": "www.aglariscell.es",
       "email": "info@aglariscell.es"
     },
+    
+    "coords": "143,680,144,754,240,753,239,678",
     "notes": []
   },
   
-    {
+    "AlamoConsulting": {
     "id": "2",
     "name": "Álamo Consulting",
     "image": "img/logos/alamoconsulting.png",
@@ -25,7 +31,7 @@
     "notes": []
   },
   
-    {
+    "AlbuferaEnergyStorage": {
     "id": "3",
     "name": "Albufera Energy Storage",
     "image": "img/logos/albufera-energy-storage.png",
@@ -38,7 +44,7 @@
     "notes": []
   },
   
-  {
+  "AllinkyBiopharma": {
     "id": "4",
     "name": "Allinky Biopharma",
     "image": "img/logos/Allinky-biopharma.png",
@@ -51,7 +57,7 @@
     "notes": []
   },
   
-      {
+      "AptusBiotech": {
     "id": "5",
     "name": "Aptus Biotech",
     "image": "img/logos/aptus-biotech.png",
@@ -64,7 +70,7 @@
     "notes": []
   },
   
-      {
+     "Aratech": {
     "id": "6",
     "name": "Aratech",
     "image": "img/logos/aratech.png",
@@ -77,7 +83,7 @@
     "notes": []
   },
   
-      {
+      "AselcisConsulting": {
     "id": "7",
     "name": "Aselcis Consulting",
     "image": "img/logos/aselcis-consulting.png",
@@ -90,7 +96,7 @@
     "notes": []
   },
   
-      {
+      "Atelgraphics": {
     "id": "8",
     "name": "Atelgraphics",
     "image": "img/logos/atelgraphics.png",
@@ -103,7 +109,7 @@
     "notes": []
   },
   
-      {
+      "Aunergy": {
     "id": "9",
     "name": "Aunergy",
     "image": "img/logos/aunergy.png",
@@ -116,7 +122,7 @@
     "notes": []
   },
   
-      {
+      "BioAssays": {
     "id": "10",
     "name": "BioAssays",
     "image": "img/logos/bioassays.png",
@@ -129,7 +135,7 @@
     "notes": []
   },
   
-      {
+      "Bioecm": {
     "id": "11",
     "name": "Bioecm",
     "image": "img/logos/bioecm.png",
@@ -142,7 +148,7 @@
     "notes": []
   },
   
-      {
+      "BiomedicaMolecular": {
     "id": "12",
     "name": "Biomedica Molecular Medicine",
     "image": "img/logos/biomedica.png",
@@ -155,7 +161,7 @@
     "notes": []
   },
   
-      {
+      "BiomolInformatics": {
     "id": "13",
     "name": "Biomol Informatics",
     "image": "img/logos/biomol-genoma4u.png",
@@ -168,7 +174,7 @@
     "notes": []
   },
   
-      {
+      "Ciberned": {
     "id": "14",
     "name": "Ciberned",
     "image": "img/logos/ciberned.png",
@@ -181,7 +187,7 @@
     "notes": []
   },
   
-      {
+      "Civagen": {
     "id": "15",
     "name": "Civagen",
     "image": "img/logos/civagen.png",
@@ -194,7 +200,7 @@
     "notes": []
   },
   
-      {
+      "Dart": {
     "id": "16",
     "name": "Dart",
     "image": "img/logos/dart.png",
@@ -207,7 +213,7 @@
     "notes": []
   },
   
-      {
+      "Diomune": {
     "id": "17",
     "name": "Diomune",
     "image": "img/logos/diomune.png",
@@ -220,7 +226,7 @@
     "notes": []
   },
   
-      {
+      "Dynamimed": {
     "id": "18",
     "name": "Dynamimed",
     "image": "img/logos/dynamimed.png",
@@ -233,7 +239,7 @@
     "notes": []
   },
   
-      {
+      "EPMTIC": {
     "id": "19",
     "name": "EPMTIC",
     "image": "img/logos/epmtic.png",
@@ -246,7 +252,7 @@
     "notes": []
   },
   
-      {
+      "Exaccta": {
     "id": "20",
     "name": "Exaccta",
     "image": "img/logos/exaccta.png",
@@ -259,7 +265,7 @@
     "notes": []
   },
   
-      {
+      "Geniality": {
     "id": "21",
     "name": "Geniality",
     "image": "img/logos/geniality.png",
@@ -272,7 +278,7 @@
     "notes": []
   },
   
-      {
+      "Gnamomat": {
     "id": "22",
     "name": "Gnanomat",
     "image": "img/logos/gnanomat.png",
@@ -285,7 +291,7 @@
     "notes": []
   },
   
-      {
+      "H2OMobile": {
     "id": "23",
     "name": "H2O Mobile",
     "image": "img/logos/h2omobile.png",
@@ -298,7 +304,7 @@
     "notes": []
   },
   
-      {
+      "HalotechDNA": {
     "id": "24",
     "name": "Halotech DNA",
     "image": "img/logos/halotech-dna.png",
@@ -311,7 +317,7 @@
     "notes": []
   },
   
-      {
+      "IARLabs": {
     "id": "25",
     "name": "IARLabs",
     "image": "img/logos/iarlabs.png",
@@ -324,7 +330,7 @@
     "notes": []
   },
   
-      {
+      "Ibercat": {
     "id": "26",
     "name": "Ibercat",
     "image": "img/logos/ibercat.png",
@@ -337,7 +343,7 @@
     "notes": []
   },
   
-      {
+      "Ica2": {
     "id": "27",
     "name": "Ica2",
     "image": "img/logos/ica2.png",
@@ -350,7 +356,7 @@
     "notes": []
   },
   
-      {
+      "Innocv": {
     "id": "28",
     "name": "Innocv",
     "image": "img/logos/innocv.png",
@@ -363,10 +369,10 @@
     "notes": []
   },
   
-      {
+      "ITS-security": {
     "id": "29",
     "name": "ITS-security",
-    "image": "img/logos/its.png",
+    "image": "img/logos/its.jpg",
     "who": "ITS Security is an engineering and counselling IT company specialised in cybersecurity and intelligence for industrial monitoring systems.",
     "what": "It offers the chance to become aware of possible vulnerabilities and security breaches,",
     "contact": {
@@ -376,7 +382,7 @@
     "notes": []
   },
   
-      {
+      "Mygen": {
     "id": "30",
     "name": "Mygen",
     "image": "img/logos/mygen.png",
@@ -388,4 +394,3 @@
     },
     "notes": []
   }
-  ]
