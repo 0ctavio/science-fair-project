@@ -1,5 +1,51 @@
-<img src="img/fair_map.png" alt="" usemap="#Map" />
-<div name="Map" id="Map" class="standCard" ng-repeat="stand in stands">
-	<p><a href="/{{stand.id}}">{{stand.standName}}</a></p>
+<!-- <img src="img/fair_map.png" alt="" usemap="#Map" /> -->
+
+
+<!-- <div class="container">
+	<div class="row bodys">
+		<div class="col-md-12" style="text-align:center">
+
+			<div name="Map" id="Map" class="standCard" ng-repeat="stand in stands">
+				<p><a href="/{{stand.id}}">{{stand.standName}}</a></p>
+
+			</div>
+
+
+			<img src="img/fairmap.png">
+			<button type="button" class="stand1">Click Me!</button>
+		</div>
+	</div>
+</div> -->
+
+<div class="container bodys">
+	<div class="text-center">
+	<!-- Trigger the modal with a button -->
+	<img class="img-responsive" src="img/fairmap.png" alt="science-fair-map" usemap="#Map" />
+	<map name="Map" id="Map">
+	    <area  ng-click="idFilter = '1'" data-toggle="modal" data-target="#myModal" alt="stand1" title="stand1" shape="poly" coords="143,680,144,754,240,753,239,678" />
+	    <area alt="stand2" title="stand2" href="stand2" shape="poly" coords="243,680,243,753,297,755,296,680" />
+	</map>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div ng-repeat = "stand in stands | filter: {id: idFilter}:true">
+					<span><h3 class="standName">{{stand.name}}</h3></span><span>{{stand.id}}</span>
+					<img class="standImage" src="{{stand.image}}">
+					<h4 class="standSubtitle">¿Quienes somos?</h4>
+					<p class="standText">{{stand.who}}</p>
+					<h4 class="standSubtitle">¿Qué hacemos?</h4>
+					<p class="standText">{{stand.what}}</p>
+					<h4 class="standSubtitle">Contacto</h4>
+					<p  class="standText" ng-repeat="contact in stand.contact">{{contact}}</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
 
 </div>

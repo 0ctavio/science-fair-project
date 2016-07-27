@@ -1,63 +1,68 @@
 <div class="container">
-	<div class="row">
+	<div class="row bodys">
 		<div class="col-md-4 col-md-offset-4" style="text-align:center">
 			<img class="img-logo" src="img/fair_logo.png" alt="science-fair-logo"/>
 
-			
+
 			<form role="form">
-				
+
 				<p>Datos de Usuario</p>
 
 				<div class="form-group">
-					<label for="userName">Nombre de Usuario</label>
-					<input type="text" class="form-control" ng-model="stand.username" required>
+					<label class="control-label" for="userName">Nombre de Usuario</label>
+					<input type="text" class="form-control" id="userName" ng-model="stand.username" required>
+					<p class="help-block">Pon aquí tu nombre</p>
 				</div>
 
 				<div class="form-group">
-					<label for="pwd">Contraseña</label>
+					<label class="control-label" for="pwd">Contraseña</label>
 					<input type="password" class="form-control" ng-model="stand.password" required>
 				</div>
 
-				
+
 
 				<p>Datos del Stand</p>
 
 				<div class="form-group">
-					<label for="standNumber">Número del stand</label>
-					<input type="text" class="form-control" ng-model="stand.standNumber" required>
+					<label class="control-label" for="standNumber">Número del stand</label>
+					<input type="number" class="form-control" ng-model="stand.standNumber" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">Nombre del stand</label>
+					<label class="control-label" for="standNumber">Nombre del stand</label>
 					<input type="text" class="form-control" ng-model="stand.standName" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">Imágen del stand</label>
+					<label class="control-label" for="standNumber">Imágen del stand</label>
 					<input type="text" class="form-control" ng-model="stand.standImage" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">¿Quiénes sois?</label>
+					<label class="control-label" for="standNumber">¿Quiénes sois?</label>
 					<input type="text" class="form-control" ng-model="stand.standWho" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">¿Qué hacéis?</label>
+					<label class="control-label" for="standNumber">¿Qué hacéis?</label>
 					<input type="text" class="form-control" ng-model="stand.standWhat" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">Página web</label>
+					<label class="control-label" for="standNumber">Página web</label>
 					<input type="text" class="form-control" ng-model="stand.standWeb" required>
 				</div>
 
 				<div class="form-group">
-					<label for="standNumber">Email</label>
+					<label class="control-label" for="standNumber">Email</label>
 					<input type="email" class="form-control" ng-model="stand.standEmail" required>
 				</div>
 
-				<button ng-click="save()" class="btn btn-success">Save</button>
+				<div class="alert alert-danger fade in" ng-show="error">
+					<strong>{{message}}</strong>
+				</div>
+
+				<button ng-click="save()" class="btn btn-raised btn-success">Save</button>
 			</form>
 		</div>
 	</div>

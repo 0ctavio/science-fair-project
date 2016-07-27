@@ -86,7 +86,7 @@ app.controller('LoginViewController', ["$scope", "$localStorage","$sessionStorag
 					$sessionStorage.currentUser = $scope.stand[$scope.standName].username;
 					$location.path("/map");
 			}else{
-				$scope.message = "Error. Usuario o password erroneo.";
+				$scope.message = "¡Ups! Usuario o password incorrectos";
 				$scope.error = true;
 			}
 		}
@@ -104,6 +104,7 @@ app.controller('RegisterViewController', ["$scope", "$localStorage", "$location"
 	}
 
 	$scope.save = function() {
+		$scope.error =  false;
 
 		var stands = $localStorage.stand || {};
 		var obj = {};
@@ -116,13 +117,16 @@ app.controller('RegisterViewController', ["$scope", "$localStorage", "$location"
 		obj["standWhat"]= $scope.stand.standWhat;
 		obj["standWeb"]= $scope.stand.standWeb;
 		obj["standEmail"]= $scope.stand.standEmail;
-		console.log(stands);
 
 		if (!stands [obj.standName]) {
 			stands[obj.standName] = obj;
 			$localStorage.stand = stands;
 			$location.path("/login");
+		}else {
+			$scope.message = "¡Ups! El stand ya existe, por favor, inténtalo de nuevo con otro nombre. ";
+			$scope.error = true;
 		}
+
 	}
 
 }]);

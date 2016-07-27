@@ -1,5 +1,35 @@
-* {
-  background-color: lightcyan;
+.fixedContainer {
+    position: fixed;
+    width: 745px;
+    height: 1053px;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 50% 0; }
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  filter: blur(5px);
+  animation: animatedBackground 40s linear infinite;
+}
+
+.bodys {
+  background-color: white;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: rgba(255,255,255,.84);
+    padding: 2%;
+    border-radius: 6px;
 }
 
 .visitor-button {
