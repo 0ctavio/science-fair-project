@@ -32,7 +32,7 @@
 						<h4 class="standSubtitle">¿Quienes somos?</h4>	
 					</div>
 					<div class="col-xs-4">
-						<button class="favourite-button" ng-click="addStandToFavourite(stand.name)"><i class="fa fa-star-o fa-2x" aria-hidden="true" ng-class="{favourite: checkFavourite(stand.name)}"></i></button>
+						<i class="fa fa-star fa-2x class="favourite-button" ng-click="addStandToFavourite(stand.name)"" aria-hidden="true" ng-class="{favourite: checkFavourite(stand.name)}"></i>
 					</div>
 				</div>
 
@@ -44,15 +44,17 @@
 
 				<div class="row">
 					<div class="col-xs-12">
-						<a  class="standText" href="http://{{stand.contact.web}}">{{stand.contact.web}}</a>
-					</div>
-					<div class="col-xs-12">
-						<a  class="standText" href="mailto:{{stand.contact.email}}">{{stand.contact.email}}</a>
+						<div>
+							<a  class="contact-button" href="http://{{stand.contact.web}}">{{stand.contact.web}}</a>
+						</div>
+						<div>
+							<a  class="contact-button" href="mailto:{{stand.contact.email}}">{{stand.contact.email}}</a>
+						</div>
 					</div>
 				</div>
 				
 				<div class="row">
-					<button go-click="/map" class="btn btn-primary text-center">Volver al mapa</button>
+					<button go-click="/map" class="btn btn-primary pull-right">Volver al mapa</button>
 				</div>
 				
 

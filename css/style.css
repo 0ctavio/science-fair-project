@@ -3,10 +3,6 @@
   margin: 0 auto;
 }
 
-.favourite {
-  color: #ffd800;
-}
-
 .stand-number {
   font-size: 1.5em;
   border: solid 2px;
@@ -135,7 +131,8 @@ input.ng-invalid {
 .text-login {
   background-color: white;
   box-shadow: 5px 5px 8px -3px;
-  border-radius: 20px;
+  border-radius: 8px;
+  margin: 4% 2%;
 }
 
 .text-imput-login {
@@ -156,13 +153,8 @@ input.ng-invalid {
     box-shadow: 5px 5px 22px -7px;
 }
 
-.favourite-button {
-  background-color: transparent;
-  border: none;
-}
-
-.favourite-button:focus {
-  outline: none !important;
+.favourite {
+  color: #FFC107;
 }
 
 .card-image {

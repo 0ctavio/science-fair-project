@@ -30,9 +30,9 @@ app.config(['$routeProvider',function($routeProvider) {
 		templateUrl:'views/stand.html',
 		controller:'StandViewController'
 	})
-	.when('/contact',{
-		templateUrl:'views/formPage.html',
-		controller:'standViewController'
+	.when('/favourites', {
+		templateUrl:'views/favourites.html',
+		controller:'FavouritesViewController'
 	})
 	.otherwise({ 
 		redirectTo: '/'
@@ -43,11 +43,13 @@ app.controller('HomeViewController', ['$scope', function ($scope) {
 	$scope.appTitle = 'Science Fair';
 }]);
 
+app.controller('FavouritesViewController', ['$scope', '$sessionStorage', function ($scope, $sessionStorage) {
+	$scope.favouritesStands = $sessionStorage.favourite;
+}]);
 
 app.controller('MapViewController', ['$http', '$scope', function ($http, $scope) {
 	$http.get("js/enterprises.json").success (function (data){
-		$scope.stands = data;
-		console.log($scope.stands);
+		$scope.stands = data;;
 	});
 }]);
 

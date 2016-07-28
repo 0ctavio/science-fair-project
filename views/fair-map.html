@@ -17,7 +17,7 @@
 	</div>
 </div> -->
 
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
 
 		<div class="col-md-12 text-center map-center">
@@ -27,7 +27,9 @@
 				<div ng-repeat = "stand in stands">
 					<area go-click="/stand/{{stand.name}}" alt="{{stand.name}}" title="{{stand.name}}" shape="poly" coords={{stand.coords}} />
 				</div>
+				<button type="button" go-click="/favourites" class="fa fa-star fa-2x btn btn-raised btn-fab btn-primary login-button"></button>
 			</map>
+
 		</div>
 
 	</div>
